@@ -7,6 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73FFE88E1DB7C29C009E228F /* CameraManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8811DB7C29C009E228F /* CameraManager.h */; };
+		73FFE88F1DB7C29C009E228F /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE8821DB7C29C009E228F /* CameraManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		73FFE8901DB7C29C009E228F /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8831DB7C29C009E228F /* config.h */; };
+		73FFE8911DB7C29C009E228F /* des2.c in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE8841DB7C29C009E228F /* des2.c */; };
+		73FFE8921DB7C29C009E228F /* des2.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8851DB7C29C009E228F /* des2.h */; };
+		73FFE8931DB7C29C009E228F /* mesg.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8861DB7C29C009E228F /* mesg.h */; };
+		73FFE8941DB7C29C009E228F /* OpenGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8871DB7C29C009E228F /* OpenGLView.h */; };
+		73FFE8951DB7C29C009E228F /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE8881DB7C29C009E228F /* OpenGLView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		73FFE8961DB7C29C009E228F /* P2PCInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8891DB7C29C009E228F /* P2PCInterface.h */; };
+		73FFE8971DB7C29C009E228F /* P2PClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE88A1DB7C29C009E228F /* P2PClient.h */; };
+		73FFE8981DB7C29C009E228F /* P2PClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE88B1DB7C29C009E228F /* P2PClient.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		73FFE8991DB7C29C009E228F /* PAIOUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE88C1DB7C29C009E228F /* PAIOUnit.h */; };
+		73FFE89A1DB7C29C009E228F /* PAIOUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE88D1DB7C29C009E228F /* PAIOUnit.m */; };
+		73FFE89D1DB7C3B7009E228F /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE89C1DB7C3B7009E228F /* Constants.h */; };
+		73FFE8A01DB7C402009E228F /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE89E1DB7C402009E228F /* Utils.h */; };
+		73FFE8A11DB7C402009E228F /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE89F1DB7C402009E228F /* Utils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		73FFE8A51DB7C73B009E228F /* LoginResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8A31DB7C73B009E228F /* LoginResult.h */; };
+		73FFE8A61DB7C73B009E228F /* LoginResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE8A41DB7C73B009E228F /* LoginResult.m */; };
+		73FFE8AA1DB7C7DA009E228F /* UDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8A81DB7C7DA009E228F /* UDManager.h */; };
+		73FFE8AB1DB7C7DA009E228F /* UDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE8A91DB7C7DA009E228F /* UDManager.m */; };
+		73FFE8AE1DB7C834009E228F /* LocalDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8AC1DB7C834009E228F /* LocalDevice.h */; };
+		73FFE8AF1DB7C834009E228F /* LocalDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE8AD1DB7C834009E228F /* LocalDevice.m */; };
+		73FFE8B41DB7CA65009E228F /* Contact.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8B01DB7CA65009E228F /* Contact.h */; };
+		73FFE8B51DB7CA65009E228F /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE8B11DB7CA65009E228F /* Contact.m */; };
+		73FFE8B61DB7CA65009E228F /* ContactDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8B21DB7CA65009E228F /* ContactDAO.h */; };
+		73FFE8B71DB7CA65009E228F /* ContactDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE8B31DB7CA65009E228F /* ContactDAO.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		73FFE8BF1DB7CFAF009E228F /* FfmpegInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8B91DB7CFAF009E228F /* FfmpegInterface.h */; };
+		73FFE8C01DB7CFAF009E228F /* FfmpegInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE8BA1DB7CFAF009E228F /* FfmpegInterface.m */; };
+		73FFE8C11DB7CFAF009E228F /* libRTSP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FFE8BB1DB7CFAF009E228F /* libRTSP.a */; };
+		73FFE8C21DB7CFAF009E228F /* Rtsp_instance.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8BC1DB7CFAF009E228F /* Rtsp_instance.h */; };
+		73FFE8C31DB7CFAF009E228F /* RtspInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8BD1DB7CFAF009E228F /* RtspInterface.h */; };
+		73FFE8C41DB7CFAF009E228F /* RtspInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE8BE1DB7CFAF009E228F /* RtspInterface.mm */; };
 		EA4349A21DB5259700090BC0 /* elian.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4349A11DB5259700090BC0 /* elian.h */; };
 		EA4349A51DB525AA00090BC0 /* empty.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA4349A31DB525AA00090BC0 /* empty.mm */; };
 		EA4349A61DB525AA00090BC0 /* libelian.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4349A41DB525AA00090BC0 /* libelian.a */; };
@@ -20,6 +52,38 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73FFE8811DB7C29C009E228F /* CameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
+		73FFE8821DB7C29C009E228F /* CameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraManager.m; sourceTree = "<group>"; };
+		73FFE8831DB7C29C009E228F /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		73FFE8841DB7C29C009E228F /* des2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = des2.c; sourceTree = "<group>"; };
+		73FFE8851DB7C29C009E228F /* des2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des2.h; sourceTree = "<group>"; };
+		73FFE8861DB7C29C009E228F /* mesg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesg.h; sourceTree = "<group>"; };
+		73FFE8871DB7C29C009E228F /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		73FFE8881DB7C29C009E228F /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
+		73FFE8891DB7C29C009E228F /* P2PCInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P2PCInterface.h; sourceTree = "<group>"; };
+		73FFE88A1DB7C29C009E228F /* P2PClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P2PClient.h; sourceTree = "<group>"; };
+		73FFE88B1DB7C29C009E228F /* P2PClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P2PClient.m; sourceTree = "<group>"; };
+		73FFE88C1DB7C29C009E228F /* PAIOUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAIOUnit.h; sourceTree = "<group>"; };
+		73FFE88D1DB7C29C009E228F /* PAIOUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAIOUnit.m; sourceTree = "<group>"; };
+		73FFE89C1DB7C3B7009E228F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		73FFE89E1DB7C402009E228F /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		73FFE89F1DB7C402009E228F /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		73FFE8A31DB7C73B009E228F /* LoginResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginResult.h; sourceTree = "<group>"; };
+		73FFE8A41DB7C73B009E228F /* LoginResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginResult.m; sourceTree = "<group>"; };
+		73FFE8A81DB7C7DA009E228F /* UDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDManager.h; sourceTree = "<group>"; };
+		73FFE8A91DB7C7DA009E228F /* UDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDManager.m; sourceTree = "<group>"; };
+		73FFE8AC1DB7C834009E228F /* LocalDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalDevice.h; sourceTree = "<group>"; };
+		73FFE8AD1DB7C834009E228F /* LocalDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalDevice.m; sourceTree = "<group>"; };
+		73FFE8B01DB7CA65009E228F /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		73FFE8B11DB7CA65009E228F /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		73FFE8B21DB7CA65009E228F /* ContactDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDAO.h; sourceTree = "<group>"; };
+		73FFE8B31DB7CA65009E228F /* ContactDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDAO.m; sourceTree = "<group>"; };
+		73FFE8B91DB7CFAF009E228F /* FfmpegInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FfmpegInterface.h; sourceTree = "<group>"; };
+		73FFE8BA1DB7CFAF009E228F /* FfmpegInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FfmpegInterface.m; sourceTree = "<group>"; };
+		73FFE8BB1DB7CFAF009E228F /* libRTSP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRTSP.a; sourceTree = "<group>"; };
+		73FFE8BC1DB7CFAF009E228F /* Rtsp_instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rtsp_instance.h; sourceTree = "<group>"; };
+		73FFE8BD1DB7CFAF009E228F /* RtspInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtspInterface.h; sourceTree = "<group>"; };
+		73FFE8BE1DB7CFAF009E228F /* RtspInterface.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RtspInterface.mm; sourceTree = "<group>"; };
 		EA4349A11DB5259700090BC0 /* elian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = elian.h; path = Yoosee/elian.h; sourceTree = "<group>"; };
 		EA4349A31DB525AA00090BC0 /* empty.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = empty.mm; path = Yoosee/empty.mm; sourceTree = "<group>"; };
 		EA4349A41DB525AA00090BC0 /* libelian.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libelian.a; path = Yoosee/libelian.a; sourceTree = "<group>"; };
@@ -39,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73FFE8C11DB7CFAF009E228F /* libRTSP.a in Frameworks */,
 				EA4349A61DB525AA00090BC0 /* libelian.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +111,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73FFE8801DB7C283009E228F /* P2PCore */ = {
+			isa = PBXGroup;
+			children = (
+				73FFE8811DB7C29C009E228F /* CameraManager.h */,
+				73FFE8821DB7C29C009E228F /* CameraManager.m */,
+				73FFE8831DB7C29C009E228F /* config.h */,
+				73FFE8841DB7C29C009E228F /* des2.c */,
+				73FFE8851DB7C29C009E228F /* des2.h */,
+				73FFE8861DB7C29C009E228F /* mesg.h */,
+				73FFE8871DB7C29C009E228F /* OpenGLView.h */,
+				73FFE8881DB7C29C009E228F /* OpenGLView.m */,
+				73FFE8891DB7C29C009E228F /* P2PCInterface.h */,
+				73FFE88A1DB7C29C009E228F /* P2PClient.h */,
+				73FFE88B1DB7C29C009E228F /* P2PClient.m */,
+				73FFE88C1DB7C29C009E228F /* PAIOUnit.h */,
+				73FFE88D1DB7C29C009E228F /* PAIOUnit.m */,
+			);
+			name = P2PCore;
+			sourceTree = "<group>";
+		};
+		73FFE89B1DB7C3A6009E228F /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				73FFE89C1DB7C3B7009E228F /* Constants.h */,
+				73FFE89E1DB7C402009E228F /* Utils.h */,
+				73FFE89F1DB7C402009E228F /* Utils.m */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		73FFE8A21DB7C72A009E228F /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				73FFE8A31DB7C73B009E228F /* LoginResult.h */,
+				73FFE8A41DB7C73B009E228F /* LoginResult.m */,
+			);
+			name = Net;
+			sourceTree = "<group>";
+		};
+		73FFE8A71DB7C7CA009E228F /* Databases */ = {
+			isa = PBXGroup;
+			children = (
+				73FFE8B01DB7CA65009E228F /* Contact.h */,
+				73FFE8B11DB7CA65009E228F /* Contact.m */,
+				73FFE8B21DB7CA65009E228F /* ContactDAO.h */,
+				73FFE8B31DB7CA65009E228F /* ContactDAO.m */,
+				73FFE8A81DB7C7DA009E228F /* UDManager.h */,
+				73FFE8A91DB7C7DA009E228F /* UDManager.m */,
+				73FFE8AC1DB7C834009E228F /* LocalDevice.h */,
+				73FFE8AD1DB7C834009E228F /* LocalDevice.m */,
+			);
+			name = Databases;
+			sourceTree = "<group>";
+		};
+		73FFE8B81DB7CF8A009E228F /* rtsp */ = {
+			isa = PBXGroup;
+			children = (
+				73FFE8B91DB7CFAF009E228F /* FfmpegInterface.h */,
+				73FFE8BA1DB7CFAF009E228F /* FfmpegInterface.m */,
+				73FFE8BB1DB7CFAF009E228F /* libRTSP.a */,
+				73FFE8BC1DB7CFAF009E228F /* Rtsp_instance.h */,
+				73FFE8BD1DB7CFAF009E228F /* RtspInterface.h */,
+				73FFE8BE1DB7CFAF009E228F /* RtspInterface.mm */,
+			);
+			name = rtsp;
+			sourceTree = "<group>";
+		};
 		EAF959821DABC74000A1293C = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +211,11 @@
 		EAF9599B1DABE0C600A1293C /* Yoosee */ = {
 			isa = PBXGroup;
 			children = (
+				73FFE8B81DB7CF8A009E228F /* rtsp */,
+				73FFE8A71DB7C7CA009E228F /* Databases */,
+				73FFE8A21DB7C72A009E228F /* Net */,
+				73FFE89B1DB7C3A6009E228F /* Global */,
+				73FFE8801DB7C283009E228F /* P2PCore */,
 				EAF959A31DABE1C100A1293C /* GCDAsyncUdpSocket */,
 				EAF9599C1DABE0E000A1293C /* wifi */,
 			);
@@ -112,10 +249,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA4349A21DB5259700090BC0 /* elian.h in Headers */,
+				73FFE8931DB7C29C009E228F /* mesg.h in Headers */,
+				73FFE8BF1DB7CFAF009E228F /* FfmpegInterface.h in Headers */,
+				73FFE88E1DB7C29C009E228F /* CameraManager.h in Headers */,
+				73FFE8A01DB7C402009E228F /* Utils.h in Headers */,
+				73FFE8961DB7C29C009E228F /* P2PCInterface.h in Headers */,
+				73FFE8921DB7C29C009E228F /* des2.h in Headers */,
+				73FFE8AA1DB7C7DA009E228F /* UDManager.h in Headers */,
+				73FFE8941DB7C29C009E228F /* OpenGLView.h in Headers */,
+				73FFE8AE1DB7C834009E228F /* LocalDevice.h in Headers */,
+				73FFE8971DB7C29C009E228F /* P2PClient.h in Headers */,
+				73FFE8B61DB7CA65009E228F /* ContactDAO.h in Headers */,
 				EA4349A91DB525CC00090BC0 /* GCDAsyncUdpSocket.h in Headers */,
+				73FFE89D1DB7C3B7009E228F /* Constants.h in Headers */,
 				EAA21D331DAE163600DCF667 /* CCSmartConnectionController.h in Headers */,
+				73FFE8A51DB7C73B009E228F /* LoginResult.h in Headers */,
+				73FFE8C31DB7CFAF009E228F /* RtspInterface.h in Headers */,
+				73FFE8991DB7C29C009E228F /* PAIOUnit.h in Headers */,
 				EAF959991DABDFFA00A1293C /* CKController.h in Headers */,
 				EAF959911DABC74000A1293C /* ChinaCloud.h in Headers */,
+				73FFE8901DB7C29C009E228F /* config.h in Headers */,
+				73FFE8C21DB7CFAF009E228F /* Rtsp_instance.h in Headers */,
+				73FFE8B41DB7CA65009E228F /* Contact.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,10 +343,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73FFE8B71DB7CA65009E228F /* ContactDAO.m in Sources */,
+				73FFE89A1DB7C29C009E228F /* PAIOUnit.m in Sources */,
+				73FFE8C01DB7CFAF009E228F /* FfmpegInterface.m in Sources */,
 				EAF9599A1DABDFFA00A1293C /* CKController.m in Sources */,
+				73FFE8AB1DB7C7DA009E228F /* UDManager.m in Sources */,
 				EA4349AA1DB525CC00090BC0 /* GCDAsyncUdpSocket.m in Sources */,
+				73FFE8B51DB7CA65009E228F /* Contact.m in Sources */,
+				73FFE8A11DB7C402009E228F /* Utils.m in Sources */,
+				73FFE8A61DB7C73B009E228F /* LoginResult.m in Sources */,
+				73FFE8AF1DB7C834009E228F /* LocalDevice.m in Sources */,
 				EAF959AB1DABE20800A1293C /* CCSmartConnectionController.m in Sources */,
 				EA4349A51DB525AA00090BC0 /* empty.mm in Sources */,
+				73FFE88F1DB7C29C009E228F /* CameraManager.m in Sources */,
+				73FFE8C41DB7CFAF009E228F /* RtspInterface.mm in Sources */,
+				73FFE8951DB7C29C009E228F /* OpenGLView.m in Sources */,
+				73FFE8911DB7C29C009E228F /* des2.c in Sources */,
+				73FFE8981DB7C29C009E228F /* P2PClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
