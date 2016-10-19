@@ -67,6 +67,7 @@ NSErrorDomain const CCErrorDomain = @"ru.ailinykh.ChinaCloud";
 - (void)stopSmartConnection
 {
     [self stopSmartConnectionWithRepeatTimeout:NO];
+    [NSObject cancelPreviousPerformRequestsWithTarget:self];
 }
 
 - (void)stopSmartConnectionWithRepeatTimeout:(BOOL)isRepeat {
