@@ -17,6 +17,8 @@
 		732D650D1DB8AFD400F50354 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 732D650C1DB8AFD400F50354 /* libbz2.1.0.tbd */; };
 		732D650F1DB8AFE400F50354 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 732D650E1DB8AFE400F50354 /* libsqlite3.0.tbd */; };
 		732D65111DB8B06A00F50354 /* libelian.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 732D65101DB8B06A00F50354 /* libelian.a */; };
+		732D65131DB8B3C000F50354 /* avcodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 732D65121DB8B3C000F50354 /* avcodec.h */; };
+		732D65151DB8B5A500F50354 /* libPwdEncrypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 732D65141DB8B5A500F50354 /* libPwdEncrypt.a */; };
 		73FFE88E1DB7C29C009E228F /* CameraManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8811DB7C29C009E228F /* CameraManager.h */; };
 		73FFE88F1DB7C29C009E228F /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE8821DB7C29C009E228F /* CameraManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		73FFE8901DB7C29C009E228F /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE8831DB7C29C009E228F /* config.h */; };
@@ -84,7 +86,6 @@
 		73FFE9251DB7D4B3009E228F /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE91B1DB7D4B3009E228F /* Utils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		73FFE92E1DB7D550009E228F /* Toast+UIView.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE92C1DB7D550009E228F /* Toast+UIView.h */; };
 		73FFE92F1DB7D550009E228F /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE92D1DB7D550009E228F /* Toast+UIView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		73FFE9321DB7D557009E228F /* libPwdEncrypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FFE9301DB7D557009E228F /* libPwdEncrypt.a */; };
 		73FFE9331DB7D557009E228F /* libPwdEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE9311DB7D557009E228F /* libPwdEncrypt.h */; };
 		73FFE9361DB7D564009E228F /* MPNotificationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE9341DB7D564009E228F /* MPNotificationView.h */; };
 		73FFE9371DB7D564009E228F /* MPNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE9351DB7D564009E228F /* MPNotificationView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -108,7 +109,6 @@
 		73FFE95D1DB7D5A5009E228F /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE94B1DB7D5A5009E228F /* NetManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		73FFE95E1DB7D5A5009E228F /* RegisterResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE94C1DB7D5A5009E228F /* RegisterResult.h */; };
 		73FFE95F1DB7D5A5009E228F /* RegisterResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFE94D1DB7D5A5009E228F /* RegisterResult.m */; };
-		73FFE9611DB7D614009E228F /* avcodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFE9601DB7D614009E228F /* avcodec.h */; };
 		EA4349A21DB5259700090BC0 /* elian.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4349A11DB5259700090BC0 /* elian.h */; };
 		EA4349A51DB525AA00090BC0 /* empty.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA4349A31DB525AA00090BC0 /* empty.mm */; };
 		EA4349A91DB525CC00090BC0 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4349A71DB525CC00090BC0 /* GCDAsyncUdpSocket.h */; };
@@ -131,6 +131,8 @@
 		732D650C1DB8AFD400F50354 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
 		732D650E1DB8AFE400F50354 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		732D65101DB8B06A00F50354 /* libelian.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libelian.a; sourceTree = "<group>"; };
+		732D65121DB8B3C000F50354 /* avcodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = avcodec.h; path = ffmpeg/libavcodec/avcodec.h; sourceTree = "<group>"; };
+		732D65141DB8B5A500F50354 /* libPwdEncrypt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPwdEncrypt.a; sourceTree = "<group>"; };
 		73FFE8811DB7C29C009E228F /* CameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
 		73FFE8821DB7C29C009E228F /* CameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraManager.m; sourceTree = "<group>"; };
 		73FFE8831DB7C29C009E228F /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
@@ -198,7 +200,6 @@
 		73FFE91B1DB7D4B3009E228F /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		73FFE92C1DB7D550009E228F /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
 		73FFE92D1DB7D550009E228F /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
-		73FFE9301DB7D557009E228F /* libPwdEncrypt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPwdEncrypt.a; sourceTree = "<group>"; };
 		73FFE9311DB7D557009E228F /* libPwdEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libPwdEncrypt.h; sourceTree = "<group>"; };
 		73FFE9341DB7D564009E228F /* MPNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNotificationView.h; sourceTree = "<group>"; };
 		73FFE9351DB7D564009E228F /* MPNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNotificationView.m; sourceTree = "<group>"; };
@@ -222,7 +223,6 @@
 		73FFE94B1DB7D5A5009E228F /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
 		73FFE94C1DB7D5A5009E228F /* RegisterResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterResult.h; sourceTree = "<group>"; };
 		73FFE94D1DB7D5A5009E228F /* RegisterResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterResult.m; sourceTree = "<group>"; };
-		73FFE9601DB7D614009E228F /* avcodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = avcodec.h; path = ffmpeg/libavcodec/avcodec.h; sourceTree = "<group>"; };
 		EA4349A11DB5259700090BC0 /* elian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elian.h; sourceTree = "<group>"; };
 		EA4349A31DB525AA00090BC0 /* empty.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = empty.mm; sourceTree = "<group>"; };
 		EA4349A71DB525CC00090BC0 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
@@ -245,10 +245,10 @@
 				732D650D1DB8AFD400F50354 /* libbz2.1.0.tbd in Frameworks */,
 				732D650B1DB8AFC800F50354 /* libz.tbd in Frameworks */,
 				732D65091DB8AFB900F50354 /* libiconv.tbd in Frameworks */,
+				732D65151DB8B5A500F50354 /* libPwdEncrypt.a in Frameworks */,
 				732D65051DB8AEE200F50354 /* libAVCtrl_armv7.a in Frameworks */,
 				732D65041DB8AEE200F50354 /* libAVCtrl_arm64.a in Frameworks */,
 				732D65111DB8B06A00F50354 /* libelian.a in Frameworks */,
-				73FFE9321DB7D557009E228F /* libPwdEncrypt.a in Frameworks */,
 				732D65071DB8AEE200F50354 /* libAVCtrl_i386.a in Frameworks */,
 				732D64FF1DB8AEC200F50354 /* libRTSP.a in Frameworks */,
 				732D65061DB8AEE200F50354 /* libAVCtrl_armv7s.a in Frameworks */,
@@ -277,10 +277,10 @@
 		73FFE8801DB7C283009E228F /* P2PCore */ = {
 			isa = PBXGroup;
 			children = (
-				73FFE8871DB7C29C009E228F /* OpenGLView.h */,
-				73FFE8881DB7C29C009E228F /* OpenGLView.m */,
 				73FFE8811DB7C29C009E228F /* CameraManager.h */,
 				73FFE8821DB7C29C009E228F /* CameraManager.m */,
+				73FFE8871DB7C29C009E228F /* OpenGLView.h */,
+				73FFE8881DB7C29C009E228F /* OpenGLView.m */,
 				73FFE8891DB7C29C009E228F /* P2PCInterface.h */,
 				73FFE88A1DB7C29C009E228F /* P2PClient.h */,
 				73FFE88B1DB7C29C009E228F /* P2PClient.m */,
@@ -371,7 +371,7 @@
 				73FFE8BD1DB7CFAF009E228F /* RtspInterface.h */,
 				73FFE8BE1DB7CFAF009E228F /* RtspInterface.mm */,
 				73FFE8BC1DB7CFAF009E228F /* Rtsp_instance.h */,
-				73FFE9601DB7D614009E228F /* avcodec.h */,
+				732D65121DB8B3C000F50354 /* avcodec.h */,
 			);
 			path = rtsp;
 			sourceTree = "<group>";
@@ -388,7 +388,7 @@
 				73FFE8CC1DB7D20C009E228F /* YProgressView.h */,
 				73FFE8CD1DB7D20C009E228F /* YProgressView.m */,
 			);
-			name = UIAdditional;
+			path = UIAdditional;
 			sourceTree = "<group>";
 		};
 		73FFE8D61DB7D22D009E228F /* Controllers */ = {
@@ -397,7 +397,7 @@
 				73FFE8D71DB7D23B009E228F /* P2PMonitorController.h */,
 				73FFE8D81DB7D23B009E228F /* P2PMonitorController.m */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		73FFE8DB1DB7D2BF009E228F /* FMDatabase */ = {
@@ -412,18 +412,18 @@
 				73FFE8E21DB7D2DA009E228F /* FMResultSet.h */,
 				73FFE8E31DB7D2DA009E228F /* FMResultSet.m */,
 			);
-			name = FMDatabase;
+			path = FMDatabase;
 			sourceTree = "<group>";
 		};
 		73FFE9261DB7D4D3009E228F /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				73FFE9271DB7D504009E228F /* Toast */,
-				73FFE9281DB7D50E009E228F /* libPwdEncrypt */,
 				73FFE92A1DB7D529009E228F /* MPNotificationView */,
 				73FFE9291DB7D51D009E228F /* OBGradientView */,
+				73FFE9271DB7D504009E228F /* Toast */,
+				73FFE9281DB7D50E009E228F /* libPwdEncrypt */,
 			);
-			name = Libraries;
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 		73FFE9271DB7D504009E228F /* Toast */ = {
@@ -432,16 +432,16 @@
 				73FFE92C1DB7D550009E228F /* Toast+UIView.h */,
 				73FFE92D1DB7D550009E228F /* Toast+UIView.m */,
 			);
-			name = Toast;
+			path = Toast;
 			sourceTree = "<group>";
 		};
 		73FFE9281DB7D50E009E228F /* libPwdEncrypt */ = {
 			isa = PBXGroup;
 			children = (
-				73FFE9301DB7D557009E228F /* libPwdEncrypt.a */,
+				732D65141DB8B5A500F50354 /* libPwdEncrypt.a */,
 				73FFE9311DB7D557009E228F /* libPwdEncrypt.h */,
 			);
-			name = libPwdEncrypt;
+			path = libPwdEncrypt;
 			sourceTree = "<group>";
 		};
 		73FFE9291DB7D51D009E228F /* OBGradientView */ = {
@@ -450,7 +450,7 @@
 				73FFE9381DB7D56C009E228F /* OBGradientView.h */,
 				73FFE9391DB7D56C009E228F /* OBGradientView.m */,
 			);
-			name = OBGradientView;
+			path = OBGradientView;
 			sourceTree = "<group>";
 		};
 		73FFE92A1DB7D529009E228F /* MPNotificationView */ = {
@@ -459,16 +459,16 @@
 				73FFE9341DB7D564009E228F /* MPNotificationView.h */,
 				73FFE9351DB7D564009E228F /* MPNotificationView.m */,
 			);
-			name = MPNotificationView;
+			path = MPNotificationView;
 			sourceTree = "<group>";
 		};
 		EAF959821DABC74000A1293C = {
 			isa = PBXGroup;
 			children = (
 				EAF9598E1DABC74000A1293C /* ChinaCloud */,
+				732D64FD1DB8AE9800F50354 /* Frameworks */,
 				EAF9598D1DABC74000A1293C /* Products */,
 				EAF9599B1DABE0C600A1293C /* Yoosee */,
-				732D64FD1DB8AE9800F50354 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -497,13 +497,13 @@
 			isa = PBXGroup;
 			children = (
 				73FFE8D61DB7D22D009E228F /* Controllers */,
-				73FFE8C51DB7D1B3009E228F /* UIAdditional */,
 				73FFE8A71DB7C7CA009E228F /* Databases */,
 				EAF959A31DABE1C100A1293C /* GCDAsyncUdpSocket */,
 				73FFE89B1DB7C3A6009E228F /* Global */,
 				73FFE9261DB7D4D3009E228F /* Libraries */,
 				73FFE8A21DB7C72A009E228F /* Net */,
 				73FFE8801DB7C283009E228F /* P2PCore */,
+				73FFE8C51DB7D1B3009E228F /* UIAdditional */,
 				73FFE8B81DB7CF8A009E228F /* rtsp */,
 				EAF9599C1DABE0E000A1293C /* wifi */,
 			);
@@ -558,6 +558,7 @@
 				73FFE8921DB7C29C009E228F /* des2.h in Headers */,
 				73FFE8CE1DB7D20C009E228F /* CustomBorderButton.h in Headers */,
 				73FFE90E1DB7D460009E228F /* UDManager.h in Headers */,
+				732D65131DB8B3C000F50354 /* avcodec.h in Headers */,
 				73FFE9041DB7D460009E228F /* Contact.h in Headers */,
 				73FFE93A1DB7D56C009E228F /* OBGradientView.h in Headers */,
 				73FFE9081DB7D460009E228F /* LocalDevice.h in Headers */,
@@ -570,7 +571,6 @@
 				73FFE8FF1DB7D460009E228F /* Alarm.h in Headers */,
 				73FFE8971DB7C29C009E228F /* P2PClient.h in Headers */,
 				73FFE9581DB7D5A5009E228F /* LoginResult.h in Headers */,
-				73FFE9611DB7D614009E228F /* avcodec.h in Headers */,
 				73FFE94E1DB7D5A5009E228F /* AccountResult.h in Headers */,
 				73FFE8D41DB7D20C009E228F /* YProgressView.h in Headers */,
 				EA4349A91DB525CC00090BC0 /* GCDAsyncUdpSocket.h in Headers */,
@@ -831,6 +831,7 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Yoosee",
 					"$(PROJECT_DIR)/Yoosee/wifi",
+					"$(PROJECT_DIR)/Yoosee/Libraries/libPwdEncrypt",
 				);
 				OTHER_LDFLAGS = (
 					"-read_only_relocs",
@@ -862,6 +863,7 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Yoosee",
 					"$(PROJECT_DIR)/Yoosee/wifi",
+					"$(PROJECT_DIR)/Yoosee/Libraries/libPwdEncrypt",
 				);
 				OTHER_LDFLAGS = (
 					"-read_only_relocs",
