@@ -833,10 +833,6 @@
 					"$(PROJECT_DIR)/Yoosee/wifi",
 					"$(PROJECT_DIR)/Yoosee/Libraries/libPwdEncrypt",
 				);
-				OTHER_LDFLAGS = (
-					"-read_only_relocs",
-					suppress,
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rubetek.ChinaCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -864,10 +860,6 @@
 					"$(PROJECT_DIR)/Yoosee",
 					"$(PROJECT_DIR)/Yoosee/wifi",
 					"$(PROJECT_DIR)/Yoosee/Libraries/libPwdEncrypt",
-				);
-				OTHER_LDFLAGS = (
-					"-read_only_relocs",
-					suppress,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rubetek.ChinaCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
